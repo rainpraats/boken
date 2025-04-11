@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Beställ Bakom Skuggorna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <a class="return" href="index.html" title="Återvänd hem.">&lsaquo;&lsaquo; Tillbaka</a>
+        <form>
+            <div>
+                <p>Bakom Skuggorna</p>
+                <label>
+                    Antal:<input type="number" min="0" value="1" max="35">
+                </label>
+            </div>
+            <label>
+                <input type="email" name="email" placeholder="E-postadress" autocomplete="email" required>
+            </label>
+            <label>
+                <input type="tel" name="phonenumber" placeholder="Mobiltelefonnummer" autocomplete="tel">
+            </label>
+            <label>
+                <input type="text" name="given-name" placeholder="Förnamn" autocomplete="given-name" required>
+            </label>
+            <label>
+                <input type="text" name="family-name" placeholder="Efternamn" autocomplete="family-name" required>
+            </label>
+            <label>
+                <input type="text" name="care-of" placeholder="c/o" autocomplete="name"> 
+            </label>
+            <label>
+                <input type="text" name="postal-code" placeholder="Postnummer" autocomplete="home postal-code" required>
+            </label>
+            <label>
+                <input type="text" name="locality" placeholder="Ort" autocomplete="home locality" required>
+            </label>
+            <label>
+                <input type="text" name="street-address" placeholder="Adress" autocomplete="home street-address" required>
+            </label>
+            <label>
+                Swish: <input type="radio" id="swish" name="payment_method" value="swish" required>
+            </label>
+            <label>
+                Banköverföring: <input type="radio" id="bank_transfer" name="payment_method" value="Banköverföring">
+            </label>
+        </form>
+    </main>
+    
+</body>
+</html>
