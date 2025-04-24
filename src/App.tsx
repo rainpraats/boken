@@ -1,5 +1,6 @@
-import { useState } from 'react';
 import './App.css';
+import { router } from './Router';
+import { RouterProvider } from 'react-router';
 
 let string: string;
 let number: number;
@@ -20,7 +21,7 @@ let person: ObjectType = {
 import React from 'react';
 
 const App: React.FC = () => {
-  return <div></div>;
+  return <RouterProvider router={router}></RouterProvider>;
 };
 
 export default App;
